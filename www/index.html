@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<title>Faiz Kolkata</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css"><link rel="stylesheet" type="text/css" href="styles/fonts/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="preloader" class="preloader-light">
+	<h1></h1>
+	<div id="preload-spinner"></div>
+	<p>Faiz ul Mawaid il Burhaniyah</p>
+	<em>Burhani Masjid - Kolkata</em>
+</div>
+
+<p id="toast-5" class="toast toast-top toast-large bg-red-dark"><i class="fa fa-times"></i>Network Issues</p>
+<p id="toast-6" class="toast toast-top toast-large bg-red-dark"><i class="fa fa-times"></i>Something is missing</p>
+<p id="toast-8" class="toast toast-top toast-large bg-red-dark"><i class="fa fa-times"></i>Invalid Username or Password</p>
+<p id="toast-7" class="toast toast-top toast-large bg-green-dark"><i class="fa fa-check"></i>Successfully Logged In!</p>
+<a data-toast="toast-5" href="#" id="network_error_msg"></a>
+<a data-toast="toast-6" href="#" id="val_error_msg"></a>
+<a data-toast="toast-8" href="#" id="error_msg"></a>
+<a data-toast="toast-7" href="#" id="success"></a>
+
+<div id="page-transitions">
+	<div id="page-content" class="page-content page-content-full">	
+		<div id="page-content-scroll"><!--Enables this element to be scrolled --> 	
+			
+			<!-- <a href="#" class="cover-back-button back-button"><i class="fa fa-chevron-left font-12 color-white"></i></a>
+			<a href="index.html" class="cover-home-button"><i class="fa fa-home font-14 color-white"></i></a> -->
+			
+			<div class="cover-item cover-item-full" style="background-image:url(images/pictures_vertical/bg1.jpg);">
+				<div class="cover-content cover-content-center">
+
+				<div class="page-login content-boxed content-boxed-padding no-top no-bottom">
+					<img class="preload-image login-bg responsive-image no-bottom" src="images/pictures/9w.jpg" data-src="images/pictures/9w.jpg" alt="img">
+					<!-- <img class="preload-image login-image" src="images/pictures/0s.png" data-src="images/pictures/0s.png" alt="img"> -->
+					<form class="login-form" action="" method="post">
+						<h3 class="uppercase ultrabold full-top no-bottom color-black">Login</h3>
+						<p class="smaller-text half-bottom">Please enter your credentials below.</p>
+						<div class="page-login-field half-top">
+							<i class="fa fa-user"></i>
+							<input type="text" autocomplete="off" autofill="off"  name="user_name" placeholder="Username">
+							<em>(required)</em>
+						</div>			
+						<div class="page-login-field half-bottom">
+							<i class="fa fa-lock"></i>
+							<input type="password" name="user_password" placeholder="Password">
+							<em>(required)</em>
+						</div>
+						<div class="page-login-links small-bottom">
+							<a class="forgot float-right" href="register.html"><i class="fa fa-user float-right"></i>Create Account</a>
+							<a class="create float-left" href="forgot_password.html"><i class="fa fa-eye"></i>Forgot Password</a>
+							<div class="clear"></div>
+						</div>
+						<button type="submit" name="submit_login" value="login" class="button button-green button-full button-rounded button-s uppercase ultrabold"> Login </button>
+						
+					</form>
+				</div>	
+					
+				</div>
+				<div class="cover-overlay overlay bg-black opacity-50"></div>
+			</div>	
+			
+		</div>  
+	</div>
+	
+	<a href="#" class="back-to-top-badge back-to-top-small"><i class="fa fa-angle-up"></i>Back to Top</a>
+</div>
+	
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script src="assets/plugins/jquery.serializeJSON/jquery.serializejson.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="assets/plugins/jquery-validation/js/additional-methods.min.js" type="text/javascript"></script>
+<script src="assets/plugins/ajax-cross-origin/js/jquery.ajax-cross-origin.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="assets/scripts/login.js"></script>
+<script type="text/javascript">
+    var deviceReady = function(){
+        if(window.MobileAccessibility){
+            window.MobileAccessibility.usePreferredTextZoom(false);
+        }
+    }
+    document.addEventListener('deviceready', deviceReady, false);
+</script>
+
+</body>

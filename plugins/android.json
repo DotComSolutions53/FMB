@@ -1,0 +1,28 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-fcm": {
+      "PACKAGE_NAME": "com.dotcom.faiz"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.dotcom.faiz"
+    },
+    "phonegap-plugin-mobile-accessibility": {
+      "PACKAGE_NAME": "com.dotcom.faiz"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.dotcom.faiz"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.dotcom.faiz"
+    }
+  }
+}

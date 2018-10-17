@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "674026074867",
+    "firebase_url": "https://fmb-connect.firebaseio.com",
+    "project_id": "fmb-connect",
+    "storage_bucket": "fmb-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674026074867:android:efee4641f6e2cb2b",
+        "android_client_info": {
+          "package_name": "com.dotcom.faiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674026074867-cbdn8lsjobdep49vjgl520plutso3f46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjyJoSE2xOAa4Fmm0x_71l4Ss2QG_qk3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

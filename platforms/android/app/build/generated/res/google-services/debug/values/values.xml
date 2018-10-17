@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">674026074867-cbdn8lsjobdep49vjgl520plutso3f46.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fmb-connect.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">674026074867</string>
+    <string name="google_api_key" translatable="false">AIzaSyDjyJoSE2xOAa4Fmm0x_71l4Ss2QG_qk3o</string>
+    <string name="google_app_id" translatable="false">1:674026074867:android:efee4641f6e2cb2b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDjyJoSE2xOAa4Fmm0x_71l4Ss2QG_qk3o</string>
+    <string name="google_storage_bucket" translatable="false">fmb-connect.appspot.com</string>
+</resources>
